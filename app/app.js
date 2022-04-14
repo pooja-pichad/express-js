@@ -1,0 +1,5 @@
+const express = require("express")
+const app = express()
+const rout = require("./middle")
+app.use("/",rout)
+app.listen(3000)
